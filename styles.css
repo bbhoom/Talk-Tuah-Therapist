@@ -10,27 +10,27 @@ body {
 }
 
 .container {
-    width: 400px;
+    width: 600px;
     text-align: center;
 }
 
 .header {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .main h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 36px;
+    margin-bottom: 30px;
 }
 
 .input-box {
     display: flex;
     align-items: center;
     background-color: #2e2e2e;
-    border-radius: 25px;
-    padding: 10px 15px;
+    border-radius: 30px;
+    padding: 15px 20px;
     margin-bottom: 20px;
 }
 
@@ -40,55 +40,53 @@ body {
     border: none;
     color: #fff;
     outline: none;
-    font-size: 16px;
+    font-size: 20px;
+    padding: 5px;
 }
 
 .icon-button {
     background: none;
     border: none;
-    width: 24px;
-    height: 24px;
-    margin-left: 10px;
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
     cursor: pointer;
 }
 
-.icon-button.attach {
-    background: url('attach-icon.svg') no-repeat center;
-    background-size: contain;
-}
-
-.icon-button.globe {
-    background: url('globe-icon.svg') no-repeat center;
-    background-size: contain;
-}
-
-.voice-button {
-    background: url('voice-icon.svg') no-repeat center;
-    background-size: contain;
-    border: none;
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-.options {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.option-button {
+.submit-button {
     background-color: #333333;
     color: #ffffff;
     border: none;
-    padding: 10px 15px;
-    margin: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
 }
 
-.option-button:hover {
+.submit-button:hover {
     background-color: #444444;
+}
+
+.history {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.history h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.history ul {
+    list-style: none;
+    padding: 0;
+    color: #ddd;
+}
+
+.history ul li {
+    background: #2e2e2e;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }

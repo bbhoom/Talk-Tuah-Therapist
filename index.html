@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChatGPT Interface</title>
+    <title>TALK-TUAH</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,10 +14,15 @@
         <main class="main">
             <h1>What can I help with?</h1>
             <div class="input-box">
-                <input type="text" placeholder="How you feeling today">
+                <input id="textInput" type="text" placeholder="How are you feeling today?">
                 <button class="icon-button attach"></button>
                 <button class="icon-button globe"></button>
                 <button class="voice-button"></button>
+            </div>
+            <button id="submitButton" class="submit-button">Submit</button>
+            <div id="history" class="history">
+                <h2>History:</h2>
+                <ul id="historyList"></ul>
             </div>
         </main>
     </div>
